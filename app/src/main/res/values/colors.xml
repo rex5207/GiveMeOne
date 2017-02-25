@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="RED">#F00</color>
+    <color name="BLUE">#00F</color>
+    <color name="GREEN">#0F0</color>
+    <color name="BLACK">#000</color>
+    <color name="WHITE">#FFF</color>
+    <color name="GRAY">#888</color>
+    <color name="SKY">#0F4B78</color>
+    <color name="PURE">#00000000</color>
+    <color name="D_COLOR">#456990</color>
+
+    <color name="menu_fragment_background">#B3000000</color>
+    <color name="menu_item_background">#f2f2f2</color>
+    <color name="divider_color">#b5b5b5</color>
+
+</resources>

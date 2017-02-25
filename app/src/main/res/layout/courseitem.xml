@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F5F5F5">
+
+
+    <View android:layout_width="fill_parent"
+        android:id="@+id/area1"
+        android:layout_height="70dp"
+        android:background="#F5F5F5"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/CourseNameItem"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:gravity="center_vertical|left"
+            android:layout_marginRight="5dp"
+            android:textSize="15dp"
+            android:text="課程名稱"
+            android:textStyle="bold"
+            android:textColor="@color/BLACK"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/CourseTeacherItem"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:layout_marginRight="5dp"
+            android:layout_weight="5"
+            android:textSize="15dp"
+            android:text="授課老師"
+            android:textStyle="bold"
+            android:textColor="@color/BLACK"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/CourseTimeItem"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:layout_marginRight="5dp"
+            android:layout_weight="5"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="授課時間"
+            android:textColor="@color/BLACK"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/CourseQuotaItem"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:layout_marginRight="5dp"
+            android:layout_weight="4"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="剩餘名額"
+            android:textColor="@color/BLACK"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/s_line1"
+        android:layout_below="@+id/area1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#AAAAAA"/>
+
+</RelativeLayout>
